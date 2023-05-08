@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap');
+
+body {
+    background-color: #111111;
+    font-family: 'Outfit', 'sans-serif';
+    color: white;
+}
+
+header {
+    padding-left: 8vw;
+    padding-top: 27px;
+    font-size: 20px;
+}
+
+.company-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 9vw;
+}
+
+.nav-active {
+    color: #FE4A4A;
+    border-bottom: 2px solid #FE4A4A;
+}
+
+.nav-link {
+    margin-left: 5vw;
+}
+
+.sign-btn {
+    background: #F54E51;
+    width: 109px;
+    height: 39px;
+    margin-left: 16vw;
+    border-radius: 10px;
+}
+
+.background-img {
+    height: 90vh;
+    background: url("img/Background.png") no-repeat center 110px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 150px;
+    text-align: center;
+    letter-spacing: 43px;
+    margin-top: 0;
+    line-height: 250px;
+}
+
+.under-label {
+    font-size: 100px;
+    letter-spacing: 5px;
+    margin-top: 250px;
+}
+
+.logos {
+    border-bottom: 1px solid #4A4A4A;
+    border-top: 1px solid #4A4A4A;
+    display: flex;
+    height: 160px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#g1 {
+    display: flex;
+    justify-content: center;
+    color: #7D7D7D;
+}
+
+.under-footer {
+    border-top: 1px solid #3A3C56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 90vw;
+}
+
+.under-footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 20vw;
+}
+
+.under-footer > div {
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    width: 90vw;
+    margin-top: 100px;
+}
+
+.footer-company-title {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 9vw;
+}
+
+.footer-img {
+    vertical-align: middle;
+    width: 51.72px;
+    height: 36px;
+}
+
+.footer-catalog {
+    color: #FE4A4A;
+    font-weight: 200;
+}
